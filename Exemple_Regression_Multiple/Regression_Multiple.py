@@ -1,4 +1,9 @@
-# Ce programme est un exemple de régression Multi-Linéaire (sans évalution du modèle)
+""" 
+Ce programme est un exemple de régression Multi-Linéaire sans évalution
+(validation croisé) du modèle. C'est à dire qu'on ne partage pas ici
+les données d'apprentissage en plusieurs échantillon pour ensuite quantifier
+l'erreur.
+"""
 
 # Les Imports
 import numpy as np
