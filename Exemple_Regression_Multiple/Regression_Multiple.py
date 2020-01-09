@@ -54,16 +54,16 @@ print("Le RMSE =", RMSE)
 
 
 # Tracer des graphiques
-plt.figure("y Préditent")
+plt.figure("y Prédites")
 plt.plot(y, y_fit,'.')
-plt.title('Valeurs préditent en fonction des reponses')
+plt.title('Valeurs prédites en fonction des reponses')
 plt.xlabel('variables réponses (y)')
-plt.ylabel('valeurs préditent (y_fit)')
+plt.ylabel('valeurs prédites (y_fit)')
 
 plt.figure("Résidus modèle")
 plt.plot(y_fit, y-y_fit,'.')
-plt.title('Résidus du modèle en fonction des valeurs préditent')
-plt.xlabel('valeurs préditent (y_fit)')
+plt.title('Résidus du modèle en fonction des valeurs prédites')
+plt.xlabel('valeurs prédites (y_fit)')
 plt.ylabel('résidus (y-y_fit)')
 plt.show()
 
