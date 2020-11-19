@@ -1,2 +1,2 @@
 # master
-Repertoire qui contiendra les sous-repertoire de tous les projets
+Repertoire contenant les sous-repertoire de tous les projets
